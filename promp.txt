@@ -1,0 +1,26 @@
+Build a realistic full-stack Tast Management application.
+**TECH STACK**
+-frontend: React+vite+Javascript +tailwindcss
+-Backend: .net core
+-database:PostgreSQL
+**FEATURES**
+-Dashboard with task statistics
+-task CRUD(create, read,Update,Delete)
+Task details page
+Team members page
+**Architecture**
+-separate frontend and backend folders
+-backend: Constollers, service, repository
+-Rest APIs woth DTOs and input validation
+-claen, responsive UI
+**Sample Data**
+-Automatically create 12 sample tasks with different statues and priorities
+-create 5 sample team members
+-avoid duplicate data when restarting the application
+IMPORTANT
+DO NOT implement task assignment yet Assignment yet. Keep tasks and team members separate, without any assignment relationshipAPI or UI.
+VERIFICATION
+-check frontend and backend builds
+-fix anybuild errors
+-provide postgreSQL setup and application startup instructions
+-report any checks that could not be complelted

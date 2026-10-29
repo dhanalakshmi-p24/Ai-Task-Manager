@@ -1,0 +1,24 @@
+@baseUrl = http://localhost:5094
+
+GET {{baseUrl}}/api/dashboard/stats
+
+###
+GET {{baseUrl}}/api/tasks?status=InProgress
+
+###
+GET {{baseUrl}}/api/tasks/1
+
+###
+POST {{baseUrl}}/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Review release checklist",
+  "description": "Go through the release checklist before Friday.",
+  "status": "Todo",
+  "priority": "High",
+  "dueDate": "2026-11-06"
+}
+
+###
+GET {{baseUrl}}/api/team-members
